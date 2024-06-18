@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义输入和输出文件
-input_file="hosts"
+input_file="Hosts"
 output_file="/opt/1panel/apps/adguardhome/adguardhome/data/conf/hosts.txt"
 
 # 检查输入文件是否存在
