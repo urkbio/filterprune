@@ -1,6 +1,7 @@
 rm ./adgh.txt
 wget https://ghproxy.net/https://raw.githubusercontent.com/urkbio/AdGuard-Rule/main/rule/adgh.txt
 
+rm ./Hosts
 # 拉取加速规则，以下两个任选，更多请看源项目首页
 # Github520 https://github.com/521xueweihan/GitHub520
 #wget https://raw.hellogithub.com/hosts
