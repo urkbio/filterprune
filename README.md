@@ -9,6 +9,13 @@
 使用方法：拉取本仓库，按需改shell脚本中的文件名或链接，定时cd到这个文件夹执行exec.sh。因为我是用1panel，所以很容易添加定时任务，默认的输出目录也是1panel商店安装的AdGuard Home的conf文件夹，这个也按需修改即可。
 
 ---
+### 还有一些实用小脚本
+
+keepalive.sh 检查一个systemd服务是否为active，如果不是就restart，适合定期运行。
+
+domain.sh 将一行一个域名的列表转换为[/domain1.com/domain2.com/domain3.com/]这种形式，适用于adgh。
+
+---
 脚本用chatGPT协助编写
 
 ---
